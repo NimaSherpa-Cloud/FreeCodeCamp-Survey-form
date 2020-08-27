@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="box">
+		<h1 id="title">NimaChhiringSherpa Survey Form</h1>
+		<p id="description">Thank you for taking the time to waste your time</p>
+		<form id="survey-form">
+
+			<label for="name" id="name-label">Name</label><br>
+			<input type="text" name="name" id="name" placeholder="Enter your name" required=""><br>
+
+			<label for="email" id="email-label">Email</label><br>
+			<input type="email" name="email" id="Email" placeholder="Enter your Email" required=""><br>
+
+			<label for="number" id="number-label">Age</label><br>
+			<input type="number" name="age" id="age" placeholder="Enter your age" min="10" max="100"><br>
+
+			<label for="dropdown" id="">Choose a day</label><br>
+			<select id="dropdown">
+				<option value="sunday">Sunday</option>
+				<option value="monday">Monday</option>
+				<option value="tuesday">Tuesday</option>
+				<option value="wednesday">Wednesday</option>
+				<option value="friday">Friday</option>
+				<option value="saturday">Saturday</option>
+			</select>
+				<p>Gender</p>
+				<input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br>
+				<input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br>
+				<input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+
+				<p>What are your hobbies</p>
+				<input type="checkbox" name="hobby" value="Traveling" id="Traveling"><label for="traveling">Traveling</label><br>
+
+				<input type="checkbox" name="hobby" value="dancing" id="dancing"><label for="dancing">Dancing</label><br>
+
+				<input type="checkbox" name="hobby" value="reading" id="reading"><label for="reading">Reading</label><br>
+
+				<input type="checkbox" name="hobby" value="singing" id="singing"><label for="singing">Singing</label><br>
+
+				<input type="checkbox" name="hobby" value="collecting" id="collecting"><label for="collecting">Collecting</label><br>
+
+				<input type="checkbox" name="hobby" value="rapping" id="rapping"><label for="rapping">Rapping</label><br>
+
+				<input type="checkbox" name="hobby" value="sketching" id="sketching"><label for="sketching">Sketching</label><br>
+
+				<input type="checkbox" name="hobby" value="astronomy" id="astronomy"><label for="astronomy">Astronomy</label><br>
+
+				<input type="checkbox" name="hobby" value="playing" id="playing"><label for="playing">Playing</label><br>
+
+				<input type="checkbox" name="hobby" value="learning" id="learning"><label for="learning">Learning</label><br>
+
+				<p>More about you</p>
+				<input type="text-area" name="about">
+				<br>
+				<button type="submit" id="submit">Submit</button>
+
+		
+		</form>
+	</div>
+</body>
+</html>
